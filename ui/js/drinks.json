@@ -1,0 +1,84 @@
+{
+	"dispensers" : {
+		"rum" : 0,
+		"cola" : 1,
+		"cin" : 2,
+		"tonic" : 3,
+		"malibu" : 4,
+		"orange" : 5,
+		"ananas" : 6
+	},
+	"drinks" : [
+		{
+			"id" : 1,
+			"title" : "Cuba Libre",
+			"img" : "img/cubalibre.png",
+			"ingredients" : [
+				{
+					"type" : "rum",
+					"amount" : 1
+				},
+				{
+					"type" : "cola",
+					"amount" : 3
+				}
+			]
+		},{
+			"id" : 2,
+			"title" : "Cin Tonic",
+			"img" : "img/cintonic.png",
+			"ingredients": [
+				{
+					"type" : "cin",
+					"amount" : 1
+				},
+				{
+					"type" : "tonic",
+					"amount" : 3
+				}
+			]
+		},{
+			"id" : 3,
+			"title" : "Vodka Orance",
+			"img" : "img/vodkaorange.png",
+			"ingredients" : [
+				{
+					"type" : "malibu",
+					"amount" : 1
+				},
+				{
+					"type" : "orange",
+					"amount" : 3
+				}
+			]
+		},{
+			"id" : 4,
+			"title" : "Malibu Ananas",
+			"img" : "img/vodkaorange.png",
+			"ingredients" : [
+				{
+					"type" : "malibu",
+					"amount" : 1
+				},
+				{
+					"type" : "ananas",
+					"amount" : 3
+				}
+			]
+		},{
+			"id" : 5,
+			"title" : "Malibu Orange",
+			"img" : "img/vodkaorange.png",
+			"ingredients" : [
+				{
+					"type" : "malibu",
+					"amount" : 2
+				},
+				{
+					"type" : "orance",
+					"amount" : 2
+				}
+			]
+		}
+	]
+}
