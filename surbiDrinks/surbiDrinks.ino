@@ -25,6 +25,7 @@ void setup() {
 int duration[8]={0,0,0,0,0,0,0,0};
 String readString;
 int counter = 0;
+int glassSizeFactor = 100; // 10 seconds
 
 void loop()                     // run over and over again
 {
@@ -39,8 +40,20 @@ void loop()                     // run over and over again
     readString = "";
     int selectedDuration = n % 10;
     int selectedMotor = n / 10;
-    duration[selectedMotor] = selectedDuration * 100;
-    Serial.println(duration[selectedMotor]);
+    if (selectedDuration == 8) {
+        // set The glassSizeFactor by sending 8x where x is the number of seconds that a pump runs when p1 is sent 
+        glassSizeFactor = selectedDuration * 10;
+    } else {
+        // stop all the motors by sending 90
+        if (selectedDuration == 9) {
+            for (int i=0; i < 8; i++){
+                duration[i] = 0;
+            }
+        } else {
+            duration[selectedMotor] = selectedDuration * classSizeFactor;
+            Serial.println(duration[selectedMotor]);
+        }
+    }
   }    
     /*ECHO the value that was read, back to the serial port. */
       //myMotor->run(FORWARD);
