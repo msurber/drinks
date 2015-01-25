@@ -25,7 +25,7 @@ void setup() {
 int duration[8]={0,0,0,0,0,0,0,0};
 String readString;
 int counter = 0;
-int glassSizeFactor = 100; // 10 seconds
+int glassSizeFactor = 90; // 10 seconds
 
 void loop()                     // run over and over again
 {
@@ -50,7 +50,7 @@ void loop()                     // run over and over again
                 duration[i] = 0;
             }
         } else {
-            duration[selectedMotor] = selectedDuration * classSizeFactor;
+            duration[selectedMotor] = selectedDuration * glassSizeFactor;
             Serial.println(duration[selectedMotor]);
         }
     }

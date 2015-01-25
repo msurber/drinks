@@ -4,9 +4,10 @@
 		"cola" : 1,
 		"cin" : 2,
 		"tonic" : 3,
-		"malibu" : 4,
+		"vodka" : 4,
 		"orange" : 5,
-		"ananas" : 6
+		"ananas" : 6,
+		"mate" : 7
 	},
 	"drinks" : [
 		{
@@ -25,7 +26,7 @@
 			]
 		},{
 			"id" : 2,
-			"title" : "Cin Tonic",
+			"title" : "Gin Tonic",
 			"img" : "img/cintonic.png",
 			"ingredients": [
 				{
@@ -39,11 +40,11 @@
 			]
 		},{
 			"id" : 3,
-			"title" : "Vodka Orance",
+			"title" : "Vodka Ananas",
 			"img" : "img/vodkaorange.png",
 			"ingredients" : [
 				{
-					"type" : "malibu",
+					"type" : "vodka",
 					"amount" : 1
 				},
 				{
@@ -53,11 +54,11 @@
 			]
 		},{
 			"id" : 4,
-			"title" : "Malibu Ananas",
+			"title" : "Vodka Orange",
 			"img" : "img/vodkaorange.png",
 			"ingredients" : [
 				{
-					"type" : "malibu",
+					"type" : "vodka",
 					"amount" : 1
 				},
 				{
@@ -67,15 +68,80 @@
 			]
 		},{
 			"id" : 5,
-			"title" : "Malibu Orange",
-			"img" : "img/vodkaorange.png",
+			"title" : "Orangensaft",
+			"img" : "img/orange.png",
 			"ingredients" : [
 				{
-					"type" : "malibu",
-					"amount" : 2
-				},
-				{
 					"type" : "orance",
+					"amount" : 4
+				}
+			]
+		},{
+			"id" : 6,
+			"title" : "Ananassaft",
+			"img" : "img/ananas.png",
+			"ingredients" : [
+				{
+					"type" : "ananas",
+					"amount" : 4
+				}
+			]
+		},{
+			"id" : 7,
+			"title" : "Fruchtmix",
+			"img" : "img/frucht.png",
+			"ingredients" : [
+				{
+					"type" : "ananas",
+					"amount" : 2
+				},{
+					"type" : "orange",
+					"amount" : 2
+				}
+			]
+		},{
+			"id" : 8,
+			"title" : "Mate",
+			"img" : "img/mate.png",
+			"ingredients" : [
+				{
+					"type" : "mate",
+					"amount" : 4
+				}
+			]
+		},{
+			"id" : 9,
+			"title" : "Tschunk",
+			"img" : "img/tschunk.png",
+			"ingredients" : [
+				{
+					"type" : "rum",
+					"amount" : 1
+				},{
+					"type" : "mate",
+					"amount" : 3
+				}
+			]
+		},{
+			"id" : 9,
+			"title" : "Cola",
+			"img" : "img/tschunk.png",
+			"ingredients" : [
+				{
+					"type" : "cola",
+					"amount" : 4
+				}
+			]
+		},{
+			"id" : 9,
+			"title" : "Mate Orange",
+			"img" : "img/tschunk.png",
+			"ingredients" : [
+				{
+					"type" : "orange",
+					"amount" : 2
+				},{
+					"type" : "mate",
 					"amount" : 2
 				}
 			]
