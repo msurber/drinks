@@ -52,7 +52,15 @@ function drinkKlicked(id) {
 function produceSelectedDrink() {
 	console.log('will produce selected drink ' , drink_selected);
 	for (var i = 0 ; i < drink_selected.ingredients.length ; i++ ) {
-		var toSend = dispenser_data[drink_selected.ingredients[i].type] + '' + drink_selected.ingredients[i].amount;
+		sendCommand(drink_selected,i);
+	}
+	$('#myModal').modal('hide');
+}
+
+function sendCommand(drink_selected, i) {
+	var toSend = dispenser_data[drink_selected.ingredients[i].type] + '' + drink_selected.ingredients[i].amount;
+	console.log('toSend = ' , toSend);
+	setTimeout(function() {
 		console.log('toSend = ' , toSend);
 		$.ajax({
 			url: '/doit/' + toSend + '?date=' + Date.now(),
@@ -61,6 +69,5 @@ function produceSelectedDrink() {
 			success: function(data) {
 			}
 		});
-	}
-	$('#myModal').modal('hide');
+	},i*100);
 }

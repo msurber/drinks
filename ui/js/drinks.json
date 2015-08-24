@@ -48,7 +48,7 @@
 					"amount" : 1
 				},
 				{
-					"type" : "orange",
+					"type" : "ananas",
 					"amount" : 3
 				}
 			]
@@ -62,7 +62,7 @@
 					"amount" : 1
 				},
 				{
-					"type" : "ananas",
+					"type" : "orange",
 					"amount" : 3
 				}
 			]
@@ -72,7 +72,7 @@
 			"img" : "img/orange.png",
 			"ingredients" : [
 				{
-					"type" : "orance",
+					"type" : "orange",
 					"amount" : 4
 				}
 			]
@@ -101,47 +101,49 @@
 			]
 		},{
 			"id" : 8,
-			"title" : "Mate",
-			"img" : "img/mate.png",
-			"ingredients" : [
+			"title" : "Tonic",
+			"img" : "img/cintonic.png",
+			"ingredients": [
 				{
-					"type" : "mate",
-					"amount" : 4
-				}
-			]
-		},{
-			"id" : 9,
-			"title" : "Tschunk",
-			"img" : "img/tschunk.png",
-			"ingredients" : [
-				{
-					"type" : "rum",
-					"amount" : 1
-				},{
-					"type" : "mate",
-					"amount" : 3
+					"type" : "tonic",
+					"amount" : 2
 				}
 			]
 		},{
 			"id" : 9,
 			"title" : "Cola",
-			"img" : "img/tschunk.png",
+			"img" : "img/cubalibre.png",
 			"ingredients" : [
 				{
 					"type" : "cola",
-					"amount" : 4
+					"amount" : 2
 				}
 			]
 		},{
-			"id" : 9,
-			"title" : "Mate Orange",
-			"img" : "img/tschunk.png",
+			"id" : 10,
+			"title" : "Clean",
+			"img" : "img/cubalibre.png",
 			"ingredients" : [
 				{
+					"type" : "cola",
+					"amount" : 2
+				},{
+					"type" : "rum",
+					"amount" : 2
+				},{
+					"type" : "cin",
+					"amount" : 2
+				},{
+					"type" : "tonic",
+					"amount" : 2
+				},{
+					"type" : "vodka",
+					"amount" : 2
+				},{
 					"type" : "orange",
 					"amount" : 2
 				},{
-					"type" : "mate",
+					"type" : "ananas",
 					"amount" : 2
 				}
 			]

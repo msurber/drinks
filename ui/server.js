@@ -20,6 +20,7 @@ app.get('/doit/*', function (request, response) {
   // the route is the first parameter of the URL request:
   var command = request.params[0];
   // send it out the serial port:
+  console.log('command = ' , command);
   serialPort.write(command);
   // send an HTTP header to the client:
   response.writeHead(200, {'Content-Type': 'text/html'});
