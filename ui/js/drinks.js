@@ -69,5 +69,5 @@ function sendCommand(drink_selected, i) {
 			success: function(data) {
 			}
 		});
-	},i*100);
+	},i*500);
 }

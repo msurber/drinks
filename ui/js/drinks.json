@@ -1,41 +1,55 @@
 {
 	"dispensers" : {
-		"rum" : 0,
+		"cranberry" : 0,
 		"cola" : 1,
 		"cin" : 2,
 		"tonic" : 3,
 		"vodka" : 4,
 		"orange" : 5,
 		"ananas" : 6,
-		"mate" : 7
+		"malibu" : 7
 	},
 	"drinks" : [
 		{
-			"id" : 1,
-			"title" : "Cuba Libre",
-			"img" : "img/cubalibre.png",
+			"id" : 0,
+			"title" : "Malibu O",
+			"img" : "img/vodkaorange.png",
 			"ingredients" : [
 				{
-					"type" : "rum",
-					"amount" : 1
+					"type" : "malibu",
+					"amount" : 2
 				},
 				{
-					"type" : "cola",
-					"amount" : 3
+					"type" : "orange",
+					"amount" : 6
+				}
+			]
+		},{
+			"id" : 1,
+			"title" : "Malibu A",
+			"img" : "img/vodkaorange.png",
+			"ingredients" : [
+				{
+					"type" : "malibu",
+					"amount" : 2
+				},
+				{
+					"type" : "ananas",
+					"amount" : 6
 				}
 			]
 		},{
 			"id" : 2,
-			"title" : "Gin Tonic",
-			"img" : "img/cintonic.png",
-			"ingredients": [
+			"title" : "Vodka C",
+			"img" : "img/vodkaorange.png",
+			"ingredients" : [
 				{
-					"type" : "cin",
-					"amount" : 1
+					"type" : "vodka",
+					"amount" : 2
 				},
 				{
-					"type" : "tonic",
-					"amount" : 3
+					"type" : "cranberry",
+					"amount" : 6
 				}
 			]
 		},{
@@ -45,11 +59,11 @@
 			"ingredients" : [
 				{
 					"type" : "vodka",
-					"amount" : 1
+					"amount" : 2
 				},
 				{
 					"type" : "ananas",
-					"amount" : 3
+					"amount" : 6
 				}
 			]
 		},{
@@ -59,11 +73,11 @@
 			"ingredients" : [
 				{
 					"type" : "vodka",
-					"amount" : 1
+					"amount" : 2
 				},
 				{
 					"type" : "orange",
-					"amount" : 3
+					"amount" : 6
 				}
 			]
 		},{
@@ -73,7 +87,7 @@
 			"ingredients" : [
 				{
 					"type" : "orange",
-					"amount" : 4
+					"amount" : 7
 				}
 			]
 		},{
@@ -83,7 +97,7 @@
 			"ingredients" : [
 				{
 					"type" : "ananas",
-					"amount" : 4
+					"amount" : 7
 				}
 			]
 		},{
@@ -93,30 +107,10 @@
 			"ingredients" : [
 				{
 					"type" : "ananas",
-					"amount" : 2
+					"amount" : 4
 				},{
 					"type" : "orange",
-					"amount" : 2
-				}
-			]
-		},{
-			"id" : 8,
-			"title" : "Tonic",
-			"img" : "img/cintonic.png",
-			"ingredients": [
-				{
-					"type" : "tonic",
-					"amount" : 2
-				}
-			]
-		},{
-			"id" : 9,
-			"title" : "Cola",
-			"img" : "img/cubalibre.png",
-			"ingredients" : [
-				{
-					"type" : "cola",
-					"amount" : 2
+					"amount" : 4
 				}
 			]
 		},{
