@@ -1,6 +1,6 @@
 var express = require('express')
 var SerialPort = require("serialport").SerialPort
-var serialPort = new SerialPort("/dev/tty.usbmodemfd121", {
+var serialPort = new SerialPort("/dev/tty.usbmodemfa131", {
   baudrate: 9600
 });
 
